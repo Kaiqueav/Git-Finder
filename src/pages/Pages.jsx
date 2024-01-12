@@ -7,11 +7,10 @@ import { Search } from "../components/Search/Search"
 export const Page = () =>{
     return (
         <>
-        <Header/> 
-        <ListRepo/>
-        <Profile/> 
-        <Search/> 
+        <Header/>
+        <Search/>
+        <Profile/>   
+        <ListRepo title="teste" description="pega avbiisõa" />
         </>
-
     )
 }
